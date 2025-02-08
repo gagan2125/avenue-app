@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+
+# Build
+/android/build/
+/ios/build/
+/ios/Pods/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# iOS
+ios/*.xcworkspace/
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/*.xcuserstate
+ios/*.xcuserdatad/
+
+# Android
+android/app/build/
+android/.gradle/
+android/local.properties
+android/.idea/
+android/*.iml
+android/app/release/
+
+# macOS
+.DS_Store
+*.plist
+
+# Testing
+coverage/
+
+# Temporary files
+*.log
+*.tmp 
